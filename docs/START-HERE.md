@@ -6,7 +6,15 @@
 
 Node.js 20 이상과 사용할 Claude Code 또는 Codex가 먼저 설치되어 있어야 합니다. 현재 실제 설치를 확인한 환경은 macOS입니다. 설치 도구는 Linux도 지원하며 Windows는 지원하지 않습니다.
 
-배포 파일을 저장한 폴더에서:
+GitHub 소스로 설치하려면 원하는 위치에서 다음을 실행하세요.
+
+```bash
+git clone https://github.com/Magiof/agent-court.git
+cd agent-court
+npm install --global .
+```
+
+배포 파일을 받았다면, 파일을 저장한 폴더에서 다음 방법으로 설치할 수도 있습니다.
 
 ```bash
 npm install --global ./agent-court-0.2.0.tgz

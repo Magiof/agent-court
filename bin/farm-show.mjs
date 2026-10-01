@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Claude 작업 마을 — 매니저님께 이미지·PDF·문서를 대시보드로 보여드리기
-// 사용: node ~/Desktop/dev/magiof/agent-court/bin/farm-show.mjs <파일...> [--title "제목"] [--note "한 줄 설명"]
+// 사용: 프로젝트 폴더에서 node bin/farm-show.mjs <파일...> [--title "제목"] [--note "한 줄 설명"]
 import { copyFileSync, statSync, mkdirSync, appendFileSync } from 'node:fs';
 import { basename, extname, join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';

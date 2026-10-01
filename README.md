@@ -33,12 +33,13 @@ Agent Court는 각자 자신의 컴퓨터에 설치해서 자신의 코딩 에�
 
 Node.js **20 이상**이 필요합니다. 실행용 외부 npm 라이브러리는 없습니다.
 
-## 빠른 시작: 이 프로젝트 폴더에서 실행
+## 빠른 시작
 
-터미널에서 프로젝트 폴더로 이동합니다.
+원하는 위치에서 저장소를 내려받고 프로젝트 폴더로 이동합니다. 이미 내려받았다면 해당 `agent-court` 폴더에서 아래 연결 명령부터 실행하세요.
 
 ```bash
-cd ~/Desktop/dev/magiof/agent-court
+git clone https://github.com/Magiof/agent-court.git
+cd agent-court
 ```
 
 연결할 도구를 선택합니다. 셋 중 하나만 실행하세요.
@@ -229,11 +230,9 @@ agent-court/
 
 Git 저장소의 기본 브랜치는 `main`이며 원격 저장소는 [Magiof/agent-court](https://github.com/Magiof/agent-court)입니다. `.gitignore`에서 로컬 기록·토큰·비밀 파일·생성 결과물을 제외합니다. 배포 패키지도 실행에 필요한 파일만 골라 담습니다.
 
-## 기존 운영 구성과의 호환
+## 기존 기록과 개발 실행
 
-현재 개발 폴더를 옮기기 전 경로 `~/Desktop/dev/claude-farm`는 새 프로젝트를 가리키는 호환 링크로 유지합니다. 기존 실행 중인 맵과 설치된 절대경로 훅을 유지하기 위한 것입니다. 신규 사용자는 새 프로젝트 경로와 `agent-court` 명령을 사용합니다.
-
-기존 개발 운영은 `npm start`로 프로젝트의 `data/`를 읽습니다. 개인용 실행은 `npm run local`로 사용자 기록 폴더를 읽습니다. 두 실행 방법의 기록 폴더를 혼동하지 마세요.
+개발용 실행인 `npm start`는 프로젝트의 `data/`를 읽습니다. 개인용 실행은 `npm run local`로 사용자 기록 폴더를 읽습니다. 두 실행 방법의 기록 폴더를 혼동하지 마세요.
 
 기존 Claude 전용 웹 어명 수신기(`hooks/farm-listen.mjs`)와 자료 진상 도구(`bin/farm-show.mjs`)는 개발 폴더에 보존하지만 개인용 배포에는 포함하지 않습니다. 개인용 연결은 관찰용이며, 이전 연결 표식을 가진 기록기도 갱신·해제할 수 있습니다.
 
