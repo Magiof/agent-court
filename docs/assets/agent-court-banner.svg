@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Court · 에이전트 조정</title>
+  <desc id="desc">붉은 도장과 도트 궁궐 문을 곁들인 Agent Court 현판</desc>
+  <rect width="1280" height="320" fill="#1c120c"/>
+  <path d="M24 24H1256V296H24Z" fill="none" stroke="#b8892d" stroke-width="2"/>
+  <path d="M32 32H1248V288H32Z" fill="none" stroke="#5b3418"/>
+  <g fill="#e3c27a">
+    <path d="M24 24H68V30H30V68H24ZM1256 24H1212V30H1250V68H1256ZM24 296H68V290H30V252H24ZM1256 296H1212V290H1250V252H1256Z"/>
+  </g>
+  <g transform="translate(64 55)" shape-rendering="crispEdges">
+    <rect x="24" y="143" width="192" height="61" fill="#3a2414"/>
+    <rect x="20" y="198" width="200" height="9" fill="#c9b48a"/>
+    <rect x="10" y="207" width="220" height="10" fill="#7a654a"/>
+    <path d="M45 156H58V198H45ZM108 156H121V198H108ZM171 156H184V198H171Z" fill="#a8282b"/>
+    <path d="M53 128H197V146H53Z" fill="#a8282b"/>
+    <path d="M53 130H197V136H53Z" fill="#e3c27a"/>
+    <path d="M10 124H230V134H10Z" fill="#4d665c"/>
+    <path d="M24 115H216V125H24ZM37 106H203V116H37ZM51 97H189V107H51ZM65 88H175V98H65ZM81 79H159V89H81ZM98 71H142V80H98Z" fill="#293b37"/>
+    <path d="M4 118H24V108H14V103H4ZM216 118H236V103H226V108H216Z" fill="#e3c27a"/>
+    <path d="M91 64H149V71H91Z" fill="#c9b48a"/>
+    <rect x="57" y="41" width="136" height="22" fill="#3a2414"/>
+    <path d="M10 37H230V47H10Z" fill="#4d665c"/>
+    <path d="M28 29H212V38H28ZM48 21H192V30H48ZM69 13H171V22H69ZM92 6H148V14H92Z" fill="#293b37"/>
+    <path d="M4 32H24V22H14V17H4ZM216 32H236V17H226V22H216Z" fill="#e3c27a"/>
+    <path d="M92 0H148V6H92Z" fill="#c9b48a"/>
+    <path d="M67 47H77V64H67ZM116 47H126V64H116ZM165 47H175V64H165Z" fill="#a8282b"/>
+  </g>
+  <text x="350" y="94" fill="#b8892d" font-family="monospace" font-size="15" letter-spacing="4">CLAUDE CODE · CODEX</text>
+  <text x="345" y="173" fill="#f4ead2" font-family="Georgia, serif" font-size="74" letter-spacing="5">AGENT COURT</text>
+  <text x="350" y="225" fill="#e3c27a" font-family="'Song Myung', 'Noto Serif KR', serif" font-size="28" letter-spacing="6">에이전트 조정</text>
+  <g transform="translate(1120 201) rotate(-6)">
+    <rect width="70" height="70" rx="2" fill="#a8282b"/>
+    <rect x="5" y="5" width="60" height="60" fill="none" stroke="#f4ead2" stroke-width="2"/>
+    <text x="35" y="29" fill="#f4ead2" font-family="serif" font-size="24" text-anchor="middle">朝</text>
+    <text x="35" y="56" fill="#f4ead2" font-family="serif" font-size="24" text-anchor="middle">廷</text>
+  </g>
+</svg>
