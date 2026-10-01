@@ -1,0 +1,2 @@
+# PNG geometry checks only; the application runtime has no Python dependency.
+Pillow
