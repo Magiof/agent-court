@@ -227,7 +227,7 @@ agent-court/
 └── requirements-dev.txt       # 개발용 PNG 검증 의존성
 ```
 
-Git 저장소는 `main` 브랜치로 초기화했으며 원격 저장소는 아직 설정하지 않았습니다. `.gitignore`에서 로컬 기록·토큰·비밀 파일·생성 결과물을 제외합니다. 배포 패키지도 실행에 필요한 파일만 골라 담습니다.
+Git 저장소의 기본 브랜치는 `main`이며 원격 저장소는 [Magiof/agent-court](https://github.com/Magiof/agent-court)입니다. `.gitignore`에서 로컬 기록·토큰·비밀 파일·생성 결과물을 제외합니다. 배포 패키지도 실행에 필요한 파일만 골라 담습니다.
 
 ## 기존 운영 구성과의 호환
 
