@@ -1,0 +1,21 @@
+# Local records and credentials
+/data/
+/data-demo/
+/.secrets/
+.env
+.env.*
+!.env.example
+
+# Generated previews, release archives and downloaded reference packs
+/output/
+/dist/
+/vendor/
+*.tgz
+*.log
+
+# Dependencies and OS files
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

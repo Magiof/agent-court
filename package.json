@@ -1,0 +1,26 @@
+{
+  "name": "agent-court",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Agent Court — Claude Code와 Codex 작업을 조선 도트 조정으로 보여주는 개인용 로컬 대시보드",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "local": "node bin/agent-court.mjs start",
+    "connect": "node bin/agent-court.mjs connect",
+    "disconnect": "node bin/agent-court.mjs disconnect",
+    "test": "node --test tests/*.test.mjs",
+    "test:assets": "python3 tests/validate-sprite-assets.py",
+    "demo": "node scripts/demo.mjs"
+  },
+  "bin": { "agent-court": "bin/agent-court.mjs" },
+  "files": [
+    "server.mjs", "bin/agent-court.mjs", "lib/install.mjs", "hooks/farm-hook.mjs",
+    "public/index.html", "public/app.js", "public/style.css", "public/pixel.js",
+    "public/concept-map.js", "public/navigation.js",
+    "public/assets/sprites/index.json", "public/assets/sprites/v2/*.png",
+    "public/assets/joseon/v2/map-concept-v1.png",
+    "docs/START-HERE.md", "THIRD-PARTY-NOTICES.md"
+  ],
+  "engines": { "node": ">=20" }
+}
