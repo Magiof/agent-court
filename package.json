@@ -20,7 +20,7 @@
     "public/concept-map.js", "public/navigation.js",
     "public/assets/sprites/index.json", "public/assets/sprites/v2/*.png",
     "public/assets/joseon/v2/map-concept-v1.png",
-    "docs/", "THIRD-PARTY-NOTICES.md"
+    "README.en.md", "docs/", "THIRD-PARTY-NOTICES.md", "THIRD-PARTY-NOTICES.en.md"
   ],
   "engines": { "node": ">=20" }
 }

@@ -1,5 +1,7 @@
 # Agent Court 사용 안내
 
+**한국어** · [English](USAGE.en.md)
+
 설치, 연결, 기록 관리와 개발에 필요한 상세 안내입니다. 처음 사용하는 경우 [시작하기](START-HERE.md)를 먼저 읽으세요.
 
 [← 프로젝트 소개](../README.md)
@@ -213,7 +215,7 @@ agent-court/
 └── requirements-dev.txt       # 개발용 PNG 검증 의존성
 ```
 
-Git 저장소의 기본 브랜치는 `main`이며 원격 저장소는 [Magiof/agent-court](https://github.com/Magiof/agent-court)입니다. `.gitignore`에서 로컬 기록·토큰·비밀 파일·생성 결과물을 제외합니다. 배포 패키지도 실행에 필요한 파일만 골라 담습니다.
+Git 저장소의 기본 브랜치는 `main`이며 원격 저장소는 [Magiof/agent-court](https://github.com/Magiof/agent-court)입니다. `.gitignore`에서 로컬 기록·토큰·비밀 파일·생성 결과물을 제외합니다. 배포 패키지는 실행 파일·에셋·사용 안내를 골라 담습니다.
 
 ## 기존 기록과 개발 실행
 
